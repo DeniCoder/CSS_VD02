@@ -1,0 +1,46 @@
+html {
+        font-family: Luminari, fantasy;
+      }
+
+body {
+        margin: 0;
+      }
+
+header {
+        background: purple;
+        height: 100px;
+      }
+
+h1 {
+        text-align: center;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+      }
+
+h2 {
+        text-align: center;
+      }
+h3 {
+        color: #DC143C;
+    }
+article {
+        padding: 10px;
+        margin: 10px;
+        background: aqua;
+      }
+
+section {
+        display: flex;
+      }
+
+article {
+        flex: 1 200px;
+      }
+img {
+  flex: 1 auto;
+  margin: 5px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
