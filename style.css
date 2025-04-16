@@ -20,27 +20,63 @@ h1 {
 
 h2 {
         text-align: center;
+        color: #0000FF;
+        border-style: solid;
       }
 h3 {
         color: #DC143C;
     }
-article {
-        padding: 10px;
-        margin: 10px;
-        background: aqua;
-      }
-
 section {
         display: flex;
       }
-
 article {
+        padding: 10px;
+        margin: 10px;
+        background: #EE82EE;
         flex: 1 200px;
       }
+
 img {
-  flex: 1 auto;
-  margin: 5px;
-  font-size: 18px;
-  line-height: 1.5;
+  width: 300px;
+  border-radius: 200px;
+  transition: 1s;
+}
+img:hover{
+width: 550px;
+transition: 1s;
+border-radius: 60px;
 }
 
+div {
+    display: flex;
+    justify-content: center;
+}
+
+p {
+    font-style: italic;
+    font-weight: 800;
+    transition: 1s;
+}
+
+.name::before {
+content:'ФИО: ';
+color:#DC143C;
+}
+.name:hover{
+font-size: 30px;
+transition: 1s;
+}
+
+.mail::before {
+content:'E-mail: ';
+color:#DC143C;
+}
+.dr::before {
+content:'Дата рождения: ';
+color:#DC143C;
+}
+
+.town::before {
+content:'Город: ';
+color:#DC143C;
+}

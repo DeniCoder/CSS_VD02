@@ -17,10 +17,10 @@
         <div class="photo">
             <img src="foto/Начальник ПЭО.jpg">
         </div>
-        <p class="name">Максим Юрьевич Соколов</p>
-        <p class="mail">max.sokolov@museum.ru</p>
-        <p class="dr">17 марта 1980 г.</p>
-        <p class="town">Москва</p>
+        <p>ФИО: Максим Юрьевич Соколов</p>
+        <p>E-mail: max.sokolov@museum.ru</p>
+        <p>Дата рождения: 17 марта 1980 г.</p>
+        <p>Город: Москва</p>
         <h3>Типичные задачи:</h3>
         <ol>
           <li>Составление бюджета и финансовых планов музея.</li>
